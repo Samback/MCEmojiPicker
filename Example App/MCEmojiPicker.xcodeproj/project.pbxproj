@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A520F42AF58CF800111A6D /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A520F32AF58CF800111A6D /* EmojiView.swift */; };
 		C44B58B529867F5E006478D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B58B429867F5E006478D5 /* AppDelegate.swift */; };
 		C44B58B929867F5E006478D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B58B829867F5E006478D5 /* ViewController.swift */; };
 		C44B58BE29867F5F006478D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44B58BD29867F5F006478D5 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34A520F32AF58CF800111A6D /* EmojiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 		C44B58AA29867E13006478D5 /* MCEmojiPicker */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MCEmojiPicker; path = ..; sourceTree = "<group>"; };
 		C44B58B229867F5E006478D5 /* iOS Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44B58B429867F5E006478D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		C4E4AF212986835D004BB947 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				34A520F32AF58CF800111A6D /* EmojiView.swift */,
 				C44B58B829867F5E006478D5 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -270,6 +273,7 @@
 			files = (
 				C44B58B929867F5E006478D5 /* ViewController.swift in Sources */,
 				C44B58B529867F5E006478D5 /* AppDelegate.swift in Sources */,
+				34A520F42AF58CF800111A6D /* EmojiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
