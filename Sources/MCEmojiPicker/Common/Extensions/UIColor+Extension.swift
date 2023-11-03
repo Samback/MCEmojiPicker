@@ -22,14 +22,15 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     /// Background color for `MCEmojiPickerView`.
     ///
     /// This is a standard color from UIKit - `.systemGroupedBackground`.
     static let popoverBackgroundColor = UIColor(
-        light:  UIColor(red: 0.95, green: 0.95, blue: 0.97, alpha: 1.0),
-        dark: UIColor(red: 0.11, green: 0.11, blue: 0.12, alpha: 1.0)
+        light:  UIColor.white,
+        dark: UIColor.black
     )
+
     /// Background color for `MCEmojiSkinTonePickerBackgroundView` and `MCEmojiPreviewView`.
     ///
     /// The colors were taken from similar iOS elements.
@@ -39,7 +40,7 @@ extension UIColor {
     )
 }
 
-extension UIColor {
+public extension UIColor {
     /// Adds support for dark and light interface style modes.
     convenience init(light: UIColor, dark: UIColor) {
         if #available(iOS 13.0, *) {
